@@ -1,0 +1,11 @@
+/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/bin/Debug/netcoreapp2.1/csharp-stringinterpolation.deps.json
+/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/bin/Debug/netcoreapp2.1/csharp-stringinterpolation.runtimeconfig.json
+/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/bin/Debug/netcoreapp2.1/csharp-stringinterpolation.runtimeconfig.dev.json
+/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/bin/Debug/netcoreapp2.1/csharp-stringinterpolation.dll
+/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/bin/Debug/netcoreapp2.1/csharp-stringinterpolation.pdb
+/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/obj/Debug/netcoreapp2.1/csharp-stringinterpolation.csprojAssemblyReference.cache
+/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/obj/Debug/netcoreapp2.1/csharp-stringinterpolation.csproj.CoreCompileInputs.cache
+/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/obj/Debug/netcoreapp2.1/csharp-stringinterpolation.AssemblyInfoInputs.cache
+/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/obj/Debug/netcoreapp2.1/csharp-stringinterpolation.AssemblyInfo.cs
+/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/obj/Debug/netcoreapp2.1/csharp-stringinterpolation.dll
+/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/obj/Debug/netcoreapp2.1/csharp-stringinterpolation.pdb
