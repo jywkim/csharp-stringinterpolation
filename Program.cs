@@ -38,6 +38,21 @@ namespace csharp_stringinterpolation
           // |Arithmetic|  3.500|
           // |Geometric|  3.464|
           // |Harmonic |  3.429|
+
+          var xs = new int[] { 1, 2, 7, 9 };
+          var ys = new int[] { 7, 9, 12 };
+          Console.WriteLine($"Find the intersection of the {{{string.Join(", ",xs)}}} and {{{string.Join(", ",ys)}}} sets.");
+
+          var userName = "Jon";
+          var stringWithEscapes = $"C:\\Users\\{userName}\\Documents";
+          var verbatimInterpolated = $@"C:\Users\{userName}\Documents";
+          Console.WriteLine(stringWithEscapes);
+          Console.WriteLine(verbatimInterpolated);
+
+          // Expected output:
+          // Find the intersection of the {1, 2, 7, 9} and {7, 9, 12} sets.
+          // C:\Users\Jon\Documents
+          // C:\Users\Jon\Documents
         }
     }
 }
