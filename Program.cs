@@ -59,6 +59,29 @@ namespace csharp_stringinterpolation
           {
               Console.WriteLine($"Coin flip: {(rand.NextDouble() < 0.5 ? "heads" : "tails")}");
           }
+
+          var cultures = new System.Globalization.CultureInfo[]
+          {
+              System.Globalization.CultureInfo.GetCultureInfo("en-US"),
+              System.Globalization.CultureInfo.GetCultureInfo("en-GB"),
+              System.Globalization.CultureInfo.GetCultureInfo("nl-NL"),
+              System.Globalization.CultureInfo.InvariantCulture
+          };
+
+          var date = DateTime.Now;
+          var number = 31_415_926.536;
+          FormattableString message = $"{date,20}{number,20:N3}";
+          foreach (var culture in cultures)
+          {
+              var cultureSpecificMessage = message.ToString(culture);
+              Console.WriteLine($"{culture.Name,-10}{cultureSpecificMessage}");
+          }
+
+          // Expected output is like:
+          // en-US       10/2/18 9:04:44 PM      31,415,926.536
+          // en-GB      02/10/2018 21:04:44      31,415,926.536
+          // nl-NL        02-10-18 21:04:44      31.415.926,536
+          //            10/02/2018 21:04:44      31,415,926.536
         }
     }
 }
