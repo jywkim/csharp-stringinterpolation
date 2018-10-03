@@ -53,6 +53,12 @@ namespace csharp_stringinterpolation
           // Find the intersection of the {1, 2, 7, 9} and {7, 9, 12} sets.
           // C:\Users\Jon\Documents
           // C:\Users\Jon\Documents
+
+          var rand = new Random();
+          for (int i = 0; i < 7; i++)
+          {
+              Console.WriteLine($"Coin flip: {(rand.NextDouble() < 0.5 ? "heads" : "tails")}");
+          }
         }
     }
 }
