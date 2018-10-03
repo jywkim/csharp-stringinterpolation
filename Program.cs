@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace csharp_stringinterpolation
+namespace csharp_interpolation
 {
     class Program
     {

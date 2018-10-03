@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/csharp-stringinterpolation.csproj",
+      "projectUniqueName": "/home/jonathan/Desktop/jywkim/csharp-interpolation/csharp-stringinterpolation.csproj",
       "projectName": "csharp-stringinterpolation",
-      "projectPath": "/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/csharp-stringinterpolation.csproj",
+      "projectPath": "/home/jonathan/Desktop/jywkim/csharp-interpolation/csharp-stringinterpolation.csproj",
       "packagesPath": "/home/jonathan/.nuget/packages/",
-      "outputPath": "/home/jonathan/Desktop/jywkim/csharp-stringinterpolation/obj/",
+      "outputPath": "/home/jonathan/Desktop/jywkim/csharp-interpolation/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
