@@ -82,6 +82,12 @@ namespace csharp_interpolation
           // en-GB      02/10/2018 21:04:44      31,415,926.536
           // nl-NL        02-10-18 21:04:44      31.415.926,536
           //            10/02/2018 21:04:44      31,415,926.536
+
+          string messageInInvariantCulture = FormattableString.Invariant($"Date and time in invariant culture: {DateTime.Now}");
+          Console.WriteLine(messageInInvariantCulture);
+
+          // Expected output is like:
+          // Date and time in invariant culture: 10/03/2018 23:54:50
         }
     }
 }
